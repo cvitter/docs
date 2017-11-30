@@ -101,7 +101,7 @@ environment <https://docs.mattermost.com/developer/developer-setup.html>`__, the
 
    - For examples, see the `updateUser() <https://github.com/mattermost/mattermost-server/tree/master/api4/user.go#L86>`_ and the `getUser() <https://github.com/mattermost/mattermost-server/tree/master/api4/user.go#L58>`_ handlers.
 
-3. Run the server using ``make run-server`` to check for syntax errors.
+3. Run the server using ``make run`` to check for syntax errors.
 4. (Optional) Use ``curl`` or `Postman <https://www.getpostman.com/>`__ to test the basics of your endpoint. The endpoint will also be tested `through a unit test <https://docs.mattermost.com/developer/api4.html#writing-a-unit-test>`_, so this step is optional.
 
 Updating the Go Driver
